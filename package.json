@@ -12,7 +12,7 @@
   "license": "MIT",
   "bugs": {},
   "homepage": "https://github.com/principleware/principleware-fe-dependencies#readme",
-  "devDependencies": {
+  "dependencies": {
     "locache": "https://github.com/principleware/locache.git",
     "meld": "^1.3.2"
   }
