@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "locache": "https://github.com/principleware/locache.git"
+  }
+}
