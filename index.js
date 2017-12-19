@@ -9,7 +9,7 @@ define([
 
     return {
         'meld': meld,
-        'locache': locache.locache
+        'locache': locache
     };
 });
 
