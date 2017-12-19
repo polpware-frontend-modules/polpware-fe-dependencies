@@ -5,3 +5,7 @@
 "locache@https://github.com/principleware/locache.git":
   version "0.5.0"
   resolved "https://github.com/principleware/locache.git#f93bb35868e541165de076d63bda399df6d83a08"
+
+meld@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/meld/-/meld-1.3.2.tgz#8c3235fb5001b8796f8768818e9e4563b0de8066"
