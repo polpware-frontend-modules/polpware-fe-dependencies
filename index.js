@@ -1,15 +1,22 @@
 define([
     'meld',
-    'locache'
+    'locache',
+    'underscore',
+    'backbone',
+    'backbone-paginator'
 ], function(
     meld,
-    locache) {
+    locache,
+    _, 
+    backbone) {
 
     'use strict';
 
     return {
         'meld': meld,
-        'locache': locache
+        'locache': locache,
+        'underscore': _,
+        'backbone': backbone
     };
 });
 
