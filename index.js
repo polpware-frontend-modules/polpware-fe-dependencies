@@ -4,6 +4,7 @@ define([
     'locache',
     'underscore',
     'constraintjs',
+    'data-flow',
     'backbone',
     'backbone-paginator'
 ], function($,
@@ -11,6 +12,7 @@ define([
             locache,
             _,
             cjs,
+            flow,
             backbone) {
 
     'use strict';
@@ -21,6 +23,7 @@ define([
         'locache': locache,
         'underscore': _,
         'constraintjs': cjs,
+        'data-flow': flow,
         'backbone': backbone
     };
 });
