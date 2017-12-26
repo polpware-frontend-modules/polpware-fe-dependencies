@@ -5,6 +5,7 @@ define([
     'underscore',
     'constraintjs',
     'data-flow',
+    'state-machine',
     'backbone',
     'backbone-paginator'
 ], function($,
@@ -13,6 +14,7 @@ define([
             _,
             cjs,
             flow,
+            stateMachine,
             backbone) {
 
     'use strict';
@@ -24,7 +26,8 @@ define([
         'underscore': _,
         'constraintjs': cjs,
         'data-flow': flow,
-        'backbone': backbone
+        'backbone': backbone,
+        'state-machine': stateMachine
     };
 });
 
