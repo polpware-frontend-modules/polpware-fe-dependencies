@@ -1,6 +1,7 @@
 define([
     'jquery',
     'meld',
+    'when',
     'locache',
     'underscore',
     'constraintjs',
@@ -10,6 +11,7 @@ define([
     'backbone-paginator'
 ], function($,
             meld,
+            when,
             locache,
             _,
             cjs,
@@ -22,6 +24,7 @@ define([
     return {
         'jquery': $,
         'meld': meld,
+        'when': when,
         'locache': locache,
         'underscore': _,
         'constraintjs': cjs,
