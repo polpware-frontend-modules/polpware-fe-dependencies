@@ -1,6 +1,6 @@
 {
-  "name": "polpware-fe-dependencies",
-  "version": "1.1.0",
+  "name": "@polpware/fe-dependencies",
+  "version": "1.2.0",
   "description": "The set of third party libraries that polpware packages depend on",
   "main": "index.js",
   "scripts": {},
