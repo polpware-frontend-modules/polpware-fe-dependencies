@@ -8,7 +8,7 @@ This repository defines the boundary between our packages
 To use it, clone this repository and install it from your local disk. 
 Or you can run the command: 
 
-> yarn add https://github.com/polpware/polpware-fe-dependencies.git
+> yarn add https://github.com/polpware-frontend-modules/polpware-fe-dependencies.git
 
 Next follow two steps: 
 
@@ -60,6 +60,6 @@ In case that you do not need some third library, replace its path as below:
 
 ```javascript
             "state-machine": [
-                "./node_modules/polpware-fe-dependencies/dummy.js"
+                "./node_modules/@polpware/fe-dependencies/dummy.js"
             ]
 ```
