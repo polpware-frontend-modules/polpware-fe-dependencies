@@ -28,9 +28,9 @@ define([
         'locache': locache,
         'underscore': _,
         'constraintjs': cjs,
-        'data-flow': flow,
+        'dataFlow': flow,
         'backbone': backbone,
-        'state-machine': stateMachine
+        'stateMachine': stateMachine
     };
 });
 
