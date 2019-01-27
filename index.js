@@ -5,10 +5,10 @@ define([
     'locache',
     'underscore',
     'constraintjs',
-    'data-flow',
-    'state-machine',
+    'dataflow',
+    'statemachine',
     'backbone',
-    'backbone-paginator'
+    'backbonepaginator'
 ], function($,
             meld,
             when,
@@ -28,9 +28,9 @@ define([
         'locache': locache,
         'underscore': _,
         'constraintjs': cjs,
-        'dataFlow': flow,
+        'data-flow': flow,
         'backbone': backbone,
-        'stateMachine': stateMachine
+        'state-machine': stateMachine
     };
 });
 
