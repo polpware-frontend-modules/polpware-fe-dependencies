@@ -2,16 +2,24 @@
 # yarn lockfile v1
 
 
-backbone.paginator@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/backbone.paginator/-/backbone.paginator-2.0.6.tgz#2c6365bec7e90d3927494919bc4894cea0a46400"
+backbone.paginator@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/backbone.paginator/-/backbone.paginator-2.0.8.tgz#3a7e34f0a8b97b096333587ed3048556b9eafdcb"
+  integrity sha512-8XS2CTbjnwMbJ/3Traa1te2RPecOGbZ9tc52T89pzo6NXlVEJDFnC++dp7CQLBUZpgk3g0veX8mUbEF4wbD2NQ==
   dependencies:
     backbone "1.1.2 || 1.2.3 || ^1.3.2"
     underscore "^1.8.0"
 
-"backbone@1.1.2 || 1.2.3 || ^1.3.2", backbone@^1.3.3:
+"backbone@1.1.2 || 1.2.3 || ^1.3.2":
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/backbone/-/backbone-1.3.3.tgz#4cc80ea7cb1631ac474889ce40f2f8bc683b2999"
+  dependencies:
+    underscore ">=1.8.3"
+
+backbone@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/backbone/-/backbone-1.4.0.tgz#54db4de9df7c3811c3f032f34749a4cd27f3bd12"
+  integrity sha512-RLmDrRXkVdouTg38jcgHhyQ/2zjg7a8E6sz2zxfz21Hh17xDJYUHBZimVIt5fUyS8vbfpeSmTL3gUjTEvUV3qQ==
   dependencies:
     underscore ">=1.8.3"
 
@@ -19,17 +27,19 @@ backbone.paginator@^2.0.6:
   version "0.9.7-beta"
   resolved "https://github.com/xlongtang/constraintjs.git#7bcd08bd9fbd6596dd978b201410fab502873f4e"
 
-javascript-state-machine@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/javascript-state-machine/-/javascript-state-machine-3.0.1.tgz#327320336a20364e26b51d91662c14f14d41ea52"
+javascript-state-machine@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/javascript-state-machine/-/javascript-state-machine-3.1.0.tgz#06eeb2136a6a19ae1b56105c25caec283dd5cd14"
+  integrity sha512-BwhYxQ1OPenBPXC735RgfB+ZUG8H3kjsx8hrYTgWnoy6TPipEy4fiicyhT2lxRKAXq9pG7CfFT8a2HLr6Hmwxg==
 
-jquery@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
+jquery@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
+  integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
 
-"locache@https://github.com/principleware/locache.git":
+"locache@https://github.com/polpware/locache.git":
   version "0.5.0"
-  resolved "https://github.com/principleware/locache.git#f93bb35868e541165de076d63bda399df6d83a08"
+  resolved "https://github.com/polpware/locache.git#f93bb35868e541165de076d63bda399df6d83a08"
 
 meld@^1.3.2:
   version "1.3.2"
@@ -38,6 +48,10 @@ meld@^1.3.2:
 model-js@^0.2.5:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/model-js/-/model-js-0.2.5.tgz#59550df6a04e9f1f785f282c3a7fbcd475addfb3"
+
+"polpware-tinymce-tailor@https://github.com/polpware-frontend-modules/polpware-tinymce-tailor.git":
+  version "4.7.9"
+  resolved "https://github.com/polpware-frontend-modules/polpware-tinymce-tailor.git#704c9133520c75b57fd6e9a8d82e0f3e02340590"
 
 underscore@>=1.8.3, underscore@^1.8.0:
   version "1.8.3"
