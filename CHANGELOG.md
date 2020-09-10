@@ -1,3 +1,6 @@
+## 1.4.2 (September 10, 2020)
+
+
 ## 0.1.0 (September 10, 2020)
   - Update packages
   - Bump version to 1.4.1
