@@ -119,7 +119,7 @@ __metadata:
 "locache@https://github.com/polpware/locache.git":
   version: 0.5.0
   resolution: "locache@https://github.com/polpware/locache.git#commit=f93bb35868e541165de076d63bda399df6d83a08"
-  checksum: c4d702b2a96e8f6b5ef456c5829a10b142a28dd5f64d456f66514a337c9d2e7fffc727292f51e97f446367f352982b889467ce287d8b41a772fcb1beda7bdcba
+  checksum: da2b181cdf084cf20dbcd3311d573225f4e0523a39d2a839806b88a71c2134629d1d60dbd42720e5ee250267297f499e4b3ff04e7b54e7ec0d759fa3333c86b5
   languageName: node
   linkType: hard
 
