@@ -1,3 +1,8 @@
+## 1.6.0 (April 26, 2022)
+  - Update package dependencies; use yarn 2
+  - Packages
+  - bump version
+
 ## 1.5.0 (September 10, 2020)
 
 
