@@ -17,7 +17,7 @@ build:
 
 copy:
 	echo "Clean old files ..."
-	cd $(DeployTarget) && find . -path ./.git -prune -o -name "README.md" -prune -o -name ".nojekyll" -prune -o -type f -exec rm {} \;
+	cd $(DeployTarget) && find . -path ./.git -prune -o -name "LICENSE" -prune -o -name ".nojekyll" -prune -o -type f -exec rm {} \;
 	echo "Clean old files done"
 	echo "Copy files ..."
 	cp -r $(BuildDist)/* $(DeployTarget)/
@@ -26,7 +26,7 @@ copy:
 
 push:
 	echo "Find new files ..."
-	cd $(DeployTarget) && find . -path ./.git -prune -o -name "README.md" -prune -o -type f -exec git add {} \;
+	cd $(DeployTarget) && find . -path ./.git -prune -o -name "LICENSE" -prune -o -type f -exec git add {} \;
 	echo "Find new files done"
 	echo "Commit ..."
 	cd $(DeployTarget) && git commit -am "New publish"
