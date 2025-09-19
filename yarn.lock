@@ -92,6 +92,11 @@ model-js@^0.2.5:
   resolved "https://registry.yarnpkg.com/model-js/-/model-js-0.2.5.tgz#59550df6a04e9f1f785f282c3a7fbcd475addfb3"
   integrity sha512-JZwDorQUya+NhyyFeRLgbAMx6c2azybArodK6yzBvcud+iv4/cnk6LMq9yeaDweQiXKewjFmJ2LJ8R9AuBAnYg==
 
+typescript@^5.0.0:
+  version "5.9.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.2.tgz#d93450cddec5154a2d5cabe3b8102b83316fb2a6"
+  integrity sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==
+
 underscore@>=1.8.3, underscore@^1.8.0:
   version "1.13.7"
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.7.tgz#970e33963af9a7dda228f17ebe8399e5fbe63a10"
