@@ -15,7 +15,7 @@ import when from 'when';
 
 // 3. Import for side-effects (plugins)
 // This runs the plugin code, which attaches itself to the Backbone object.
-import 'backbone.paginator';
+import 'backbone-paginator';
 
 // 4. No import needed for globals like locache.
 // Your custom `locache.d.ts` file makes it available via `declare var locache`.

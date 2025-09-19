@@ -19,7 +19,7 @@ const distPackageJson = {
   version: originalPackageJson.version,
   description: originalPackageJson.description,
   // Adjust paths to be relative to the 'dist' folder
-  main: originalPackageJson.main.replace('dist/', ''),
+  main: originalPackageJson.main.replace('src/', ''),
   module: originalPackageJson.module.replace('dist/', ''),
   types: originalPackageJson.types.replace('dist/', ''),
   files: undefined, // The 'files' field is not needed in the dist package.json

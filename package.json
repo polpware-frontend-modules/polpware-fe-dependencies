@@ -31,8 +31,6 @@
     "devDependencies": {
         "typescript": "^5.0.0",                
         "@types/backbone": "^1.4.15",
-        "@types/backbone.paginator": "^2.0.33",
-        "@types/underscore": "^1.11.4",
         "@types/jasmine": "~5.1.8",
         "@types/javascript-state-machine": "^2.4.6",
         "@types/jquery": "^3.5.33",
