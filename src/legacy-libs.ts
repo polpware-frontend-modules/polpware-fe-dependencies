@@ -12,21 +12,17 @@ import when from 'when';
 
 // 3. Import for side-effects (plugins)
 // This runs the plugin code, which attaches itself to the Backbone object.
-import 'backbone-paginator';
 
 // 4. No import needed for globals like locache.
 // Your custom `locache.d.ts` file makes it available via `declare var locache`.
 
 // --- Type Exports (Optional but good practice) ---
-export type JQueryStatic = typeof $;
-export type BackboneStatic = typeof Backbone;
 export type UnderscoreStatic = typeof _;
 export type StateMachineStatic = typeof StateMachine;
 export type MeldStatic = typeof meld;
 export type ModelJsStatic = typeof Model;
 export type CjsStatic = typeof cjs;
 export type WhenStatic = typeof when;
-export type LocacheStatic = typeof locache;
 
 
 /**
