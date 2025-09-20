@@ -1,6 +1,6 @@
 {
     "name": "@polpware/amd-bridge",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "The set of third party libraries that polpware packages depend on",
     "main": "src/index.js",
     "module": "dist/index.js",
