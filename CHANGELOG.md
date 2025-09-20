@@ -1,3 +1,8 @@
+## 2.2.0 (September 20, 2025)
+  - Fix issues
+  - Publish
+  - Bump version
+
 ## 2.1.0 (September 20, 2025)
   - Configure backbone, jquery, and locache
   - Publish esm
