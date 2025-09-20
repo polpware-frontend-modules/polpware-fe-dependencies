@@ -1,11 +1,8 @@
 // src/legacy-libs.ts
 
 // 1. Imports using the `esModuleInterop` pattern
-import $ from 'jquery';
-import Backbone from 'backbone';
 import StateMachine from 'javascript-state-machine';
 import _ from 'underscore'; // Added underscore as it's a dependency for Backbone
-import locache from 'locache';
 
 // 2. Imports for classic CommonJS modules
 import meld from 'meld';
