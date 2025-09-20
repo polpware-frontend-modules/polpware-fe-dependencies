@@ -1,3 +1,18 @@
+## 2.1.0 (September 20, 2025)
+  - Configure backbone, jquery, and locache
+  - Publish esm
+  - CI/CD
+  - Fix toolchain
+  - Configure toolchain
+  - Add the type definition for constraintjs
+  - Update type definition for meld
+  - Create type definitions for meld and model-js
+  - Create type definitions for locache
+  - Install packages
+  - Bump version
+  - k
+  - Bump package version
+
 ## 1.6.0 (April 26, 2022)
   - Update package dependencies; use yarn 2
   - Packages
