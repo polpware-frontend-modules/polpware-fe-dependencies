@@ -1,3 +1,6 @@
+## 2.4.0 (September 21, 2025)
+  - Remove when
+
 ## 2.3.0 (September 20, 2025)
   - Bump version
   - Bump version
