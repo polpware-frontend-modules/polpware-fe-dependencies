@@ -2,14 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/backbone@^1.4.15":
-  version "1.4.23"
-  resolved "https://registry.yarnpkg.com/@types/backbone/-/backbone-1.4.23.tgz#1125ce159c93533e2b12d7ccdd267bd53f749c17"
-  integrity sha512-B/hN/DAJdWFOusEkEoa5xgfVuxJJPOR/6JQ2uwURPDyKL24PuC76IR6EcSRJ6lvGWtxHRQYMJQhJYm6KpMDtGQ==
-  dependencies:
-    "@types/jquery" "*"
-    "@types/underscore" "*"
-
 "@types/jasmine@~5.1.8":
   version "5.1.9"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-5.1.9.tgz#9f00abff2a17687e675ce6669e7b53c9e7d145f0"
@@ -20,19 +12,7 @@
   resolved "https://registry.yarnpkg.com/@types/javascript-state-machine/-/javascript-state-machine-2.4.6.tgz#e055b2ae30685209b9801669411dc4fc8caaf137"
   integrity sha512-ERPYa5Hbyz250YNAAVdDSbrGtDPphr7jvj/rVv17YRcW/Ze+GBUqb47Hr/GF23SzZ/L0wzn51Ro8bjtUQYjRJQ==
 
-"@types/jquery@*", "@types/jquery@^3.5.33":
-  version "3.5.33"
-  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.5.33.tgz#f42f40bac3edd84abdc9f6297d28e570fe463b35"
-  integrity sha512-SeyVJXlCZpEki5F0ghuYe+L+PprQta6nRZqhONt9F13dWBtR/ftoaIbdRQ7cis7womE+X2LKhsDdDtkkDhJS6g==
-  dependencies:
-    "@types/sizzle" "*"
-
-"@types/sizzle@*":
-  version "2.3.10"
-  resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.10.tgz#277a542aff6776d8a9b15f2ac682a663e3e94bbd"
-  integrity sha512-TC0dmN0K8YcWEAEfiPi5gJP14eJe30TTGjkvek3iM/1NdHHsdCA/Td6GvNndMOo/iSnIsZ4HuuhrYPDAmbxzww==
-
-"@types/underscore@*", "@types/underscore@^1.13.0":
+"@types/underscore@^1.13.0":
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/@types/underscore/-/underscore-1.13.0.tgz#dd8c034a92e5b8e24650c31af43d807c5340cee4"
   integrity sha512-L6LBgy1f0EFQZ+7uSA57+n2g/s4Qs5r06Vwrwn0/nuK1de+adz00NWaztRQ30aEqw5qOaWbPI8u2cGQ52lj6VA==

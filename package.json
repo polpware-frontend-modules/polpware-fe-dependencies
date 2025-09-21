@@ -1,6 +1,6 @@
 {
     "name": "@polpware/amd-bridge",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "The set of third party libraries that polpware packages depend on",
     "main": "src/index.js",
     "module": "dist/index.js",
@@ -30,10 +30,8 @@
     },
     "devDependencies": {
         "typescript": "^5.0.0",                
-        "@types/backbone": "^1.4.15",
         "@types/jasmine": "~5.1.8",
         "@types/javascript-state-machine": "^2.4.6",
-        "@types/jquery": "^3.5.33",
         "@types/underscore": "^1.13.0",
         "@types/when": "^2.4.41"
     }
