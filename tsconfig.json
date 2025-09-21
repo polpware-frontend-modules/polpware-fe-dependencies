@@ -5,9 +5,6 @@
             "meld": [
                 "node_modules/meld/meld.js"
             ],
-            "when": [
-                "node_modules/when/when.js"
-            ],
             "underscore": [
                 "node_modules/underscore/underscore.js"
             ],
