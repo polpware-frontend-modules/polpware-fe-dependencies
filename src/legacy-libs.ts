@@ -2,7 +2,6 @@
 
 // 1. Imports using the `esModuleInterop` pattern
 import StateMachine from 'javascript-state-machine';
-import _ from 'underscore'; // Added underscore as it's a dependency for Backbone
 
 // 2. Imports for classic CommonJS modules
 import meld from 'meld';
@@ -16,7 +15,6 @@ import cjs from 'constraintjs';
 // Your custom `locache.d.ts` file makes it available via `declare var locache`.
 
 // --- Type Exports (Optional but good practice) ---
-export type UnderscoreStatic = typeof _;
 export type StateMachineStatic = typeof StateMachine;
 export type MeldStatic = typeof meld;
 export type ModelJsStatic = typeof Model;

@@ -5,9 +5,6 @@
             "meld": [
                 "node_modules/meld/meld.js"
             ],
-            "underscore": [
-                "node_modules/underscore/underscore.js"
-            ],
             "constraintjs": [
                 "node_modules/constraintjs/build/cjs.js"
             ],

@@ -30,7 +30,6 @@
     "devDependencies": {
         "typescript": "^5.0.0",                
         "@types/jasmine": "~5.1.8",
-        "@types/javascript-state-machine": "^2.4.6",
-        "@types/underscore": "^1.13.0"
+        "@types/javascript-state-machine": "^2.4.6"
     }
 }
