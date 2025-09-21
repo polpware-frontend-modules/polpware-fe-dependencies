@@ -1,3 +1,7 @@
+## 2.3.0 (September 20, 2025)
+  - Bump version
+  - Bump version
+
 ## 2.2.0 (September 20, 2025)
   - Fix issues
   - Publish
