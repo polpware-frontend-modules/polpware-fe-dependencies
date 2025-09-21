@@ -8,7 +8,6 @@ import _ from 'underscore'; // Added underscore as it's a dependency for Backbon
 import meld from 'meld';
 import Model from 'model-js';
 import cjs from 'constraintjs';
-import when from 'when';
 
 // 3. Import for side-effects (plugins)
 // This runs the plugin code, which attaches itself to the Backbone object.
@@ -22,7 +21,6 @@ export type StateMachineStatic = typeof StateMachine;
 export type MeldStatic = typeof meld;
 export type ModelJsStatic = typeof Model;
 export type CjsStatic = typeof cjs;
-export type WhenStatic = typeof when;
 
 
 /**
@@ -51,7 +49,7 @@ export const legacyLibs = {
     cjs: cjs,
 
     /** when: A promise library. Imported via `import = require()`. */
-    when: when,
+    // when: when,
 
     /** locache: A global caching library. Referenced directly from the window object. */
     locache: locache
