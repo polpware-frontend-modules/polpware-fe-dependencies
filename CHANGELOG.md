@@ -1,3 +1,9 @@
+## 2.5.0 (September 21, 2025)
+  - Move underscore to a global presence
+  - Publish version
+  - Remove when
+  - Bump version
+
 ## 2.4.0 (September 21, 2025)
   - Remove when
 
